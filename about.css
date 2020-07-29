@@ -1,0 +1,22 @@
+.navs{
+    background-color: rgb(1, 1, 24);
+}
+body{
+    background-color:rgb(11, 11, 24);
+
+}
+hr{
+    background-color: white;
+    color:white;
+}
+.heading{
+    color: white;
+}
+.aboutme{
+
+    width: 100%;
+    background-color: white;
+    border-radius: 18px;
+    padding: 34px;
+
+}
