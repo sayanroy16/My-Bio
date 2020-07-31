@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="about.html">
+    <link rel="stylesheet" href="achievement.html">
+    <link rel="stylesheet" media="screen and (max-width: 667px)" href="phone.css">
 
     <title>Sayan Roy</title>
   </head>
@@ -25,7 +27,7 @@
               <a class="nav-link" href="about.html">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">More</a>
+              <a class="nav-link" href="achievement.html">Achievements</a>
             </li>
            
           </ul>
@@ -65,13 +67,13 @@
           </div>
       </div>
       <div class="container my-5">
-      <table class="profile">
+      <table class="card profile">
         <tr>
           <th>
             <div class="container ">
-              <h1>Hello,I am Sayan Roy</h1>
-              <p>Android Developer,Frontend Web Developer</p>
-              <p>If want to know more about myself then please Click the button which name is "About Me"</p>
+              <h1 id="intro">Hello,I am Sayan Roy</h1>
+              <p id="afterintro">Android Developer,Frontend Web Developer</p>
+              <p id="afterintro">If want to know more about myself then please Click the button which name is "About Me"</p>
             </div>
 
           </th>
@@ -79,305 +81,32 @@
           <td></td>
           <td>
             <div class="container ">
-              <img  src="images/sayan.jpg" width="50%">
+              <img id="phone" src="images/sayan.jpg">
             </div>
 
           </td>
         </tr>
       </table>
     </div>
-     
-      <div class="container my-4 second">
-        <h1>Achievements</h1><hr>
-      </div>
-      <div class="container ">
-      <table class="third middle">
-        <tr>
-          <td><h1>Internships</h1></td>
-        </tr>
-        <tr>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgSelectionK.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgselectionT.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgInternDTU.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgInternT.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/img1.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/img2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgCplus.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgword.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-        </tr>
-       
-        <tr>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgInternStar.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgFE.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgFlutter.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgSql.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgPythone.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgAdobt.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgMicro.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgNit.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgKcall.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgTcall.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgInternJan.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgRobotics.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgRoyal.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgMat.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgNEDFI.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imgword.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div class="card" style="width: 16rem;">
-              <img src="images/imglinkedin.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
-            <div class="card " style="width: 16rem;">
-              <img src="images/imgIOT.jpeg" class="card-img-top lastone" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">View Full Certificate</a>
-              </div>
-            </div>
-          </td>
-          <td>
+    <div class="containers ">
+      <div class="card bg-dark" id="card" style="width:100%;">
          
-          </td>
-          <td>
-           
-          </td>
-        </tr>
-      </table>
-    </div>
+          <div class="card-body">
+              <p class="card-text">Devoloped by Sayan Roy</p>
+              <p>Cotact info: <br>
+                  Email: <a href="mailto:sayanroy1698@gmail.com">sayanroy1698@gmail.com</a><br>
+                  Mobile: <a href="tell:9101193945">9101193945</a><br><br> For more you can visit here,<br>
+                  <a href="https://www.linkedin.com/in/sayan-roy-426b581a3/"> LinkedIn</a> &nbsp;&nbsp;&nbsp;
+
+                  <a href="https://www.facebook.com/sayan.roy.77964201">Facebook</a>&nbsp; &nbsp;&nbsp;
+
+                  <a href="https://www.instagram.com/sayan1774/">Instagram</a>
+                  <br></p>
+          </div>
+      </div>
+  </div>
+     
+     
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,0 +1,16 @@
+#achieve{
+    width: 8rem;
+    height: 10rem;
+
+}
+td{
+    padding: 5px;
+    text-align: center;
+}
+tr{
+    width: 70%;
+}
+.btn{
+    width: 5rem;
+    height: 50px;
+}

@@ -14,6 +14,10 @@ h1{
 p{
     color: white;
 }
+.profile{
+
+    background-color:rgb(11, 11, 24);
+}
 .sayan{
     box-shadow: rgb(187, 27, 27);
 }
@@ -50,6 +54,18 @@ td{
 .lastone{
     height: 178px;
 }
+#achieve{
+    width: 16rem;
+}
+#phone{
+    width: 50%;
+}
 .pic{
     padding-left: 34px;
+}
+#card{
+    align-items: center;
+}
+.card-body{
+    text-align: center;
 }
