@@ -69,3 +69,11 @@ td{
 .card-body{
     text-align: center;
 }
+.center{
+    text-align: center;
+    width: 100%;
+}
+.fullimage{
+    padding: 34px;
+    background-color:rgb(11, 11, 24);
+}

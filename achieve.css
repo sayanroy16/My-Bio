@@ -34,8 +34,14 @@ tr{
     text-align: center;
 }
 .card-title{
-    font-size: 3px;
+    font-size: 6px;
 }
 .card{
     text-align: center;
+}
+.lastone{
+    height: 56px;
+}
+.card-text{
+    inline-size: 0.5;
 }
