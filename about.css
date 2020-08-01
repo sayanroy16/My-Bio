@@ -32,3 +32,17 @@ hr{
     padding: 34px;
  color: white;
 }
+#newcolor{
+    
+    text-decoration:none;
+}
+
+#education{
+    color: black;
+}
+#card{
+    align-items: center;
+}
+#lower{
+    color: white;
+}

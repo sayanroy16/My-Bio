@@ -56,6 +56,7 @@ tr{
  
 }
 .navbutton{
+    
     text-align: center;
     
     font-size: 7px;
@@ -63,4 +64,10 @@ tr{
     height: 30px;
     margin-top: -26px;
     color:black;
+}
+#card{
+    align-items: center;
+}
+#lower{
+    color: white;
 }
