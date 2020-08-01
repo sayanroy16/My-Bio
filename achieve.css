@@ -45,3 +45,22 @@ tr{
 .card-text{
     inline-size: 0.5;
 }
+.navtab{
+    width: 100%;
+
+    text-align: left;
+}
+#navtab{
+    
+    padding: 0px;
+ 
+}
+.navbutton{
+    text-align: center;
+    
+    font-size: 7px;
+    width: 42px;
+    height: 30px;
+    margin-top: -26px;
+    color:black;
+}
